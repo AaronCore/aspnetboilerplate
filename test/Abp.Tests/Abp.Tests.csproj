@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Resources\Embedded\MyResources\js-dash\MyScriptFile.js" />
+    <EmbeddedResource Include="Resources\Embedded\MyResources\0.9\MyScriptFile.0.9.js" />
     <EmbeddedResource Include="Resources\Embedded\MyResources\js_underscore\MyScriptFile.js" />
   </ItemGroup>
 
@@ -56,10 +57,6 @@
 
   <ItemGroup>
     <Service Include="{82a7f48d-3b50-4b1e-b82e-3ada8210c358}" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Update="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" />
   </ItemGroup>
 
   <ItemGroup>
